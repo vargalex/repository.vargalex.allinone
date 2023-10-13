@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.vargalex.allinone" version="0.0.1" name="All in one repository" provider-name="vargalex">
+	<extension point="xbmc.addon.repository" name="All in one repository">
+		<dir>
+			<info compressed="false">https://repo.mvshrk.xyz/addons.xml</info>
+			<checksum>https://repo.mvshrk.xyz/addons.xml.md5</checksum>
+			<datadir zip="true">https://repo.mvshrk.xyz/plugins/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>
+		<dir minversion="18.0.0">
+			<info compressed="false">https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi18/addons.xml</info>
+			<checksum>https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi18/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi18</datadir>
+			<hashes>false</hashes>
+		</dir>
+		<dir minversion="19.0.0">
+			<info compressed="false">https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19/addons.xml</info>
+			<checksum>https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19</datadir>
+			<hashes>false</hashes>
+		</dir>
+		<dir>
+			<info compressed="false">https://slyguy.uk/.repo/addons.xml</info>
+			<checksum>https://slyguy.uk/.repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://slyguy.uk/.repo/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Vargalex All In One Repository</summary>
+		<description lang="en">Kérésre készült All In One Kodi repository, amely a következő repository-kat tartalmazza: MovieShark, CasagnaIT, SlyGuy, Gujal00. A használaból eredő következményekért a felelősség a felhasználót terheli. </description>
+		<platform>all</platform>
+	</extension>
+</addon>
