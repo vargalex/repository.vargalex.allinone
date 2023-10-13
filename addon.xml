@@ -28,10 +28,20 @@
 			<checksum>https://slyguy.uk/.repo/addons.xml.md5</checksum>
 			<datadir zip="true">https://slyguy.uk/.repo/</datadir>
 		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Paco8/kodi-repo/master/mini-repo/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Paco8/kodi-repo/master/mini-repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Paco8/kodi-repo/master/mini-repo</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/XLordKX/kodi/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/XLordKX/kodi/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/XLordKX/kodi/master/zip/</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Vargalex All In One Repository</summary>
-		<description lang="en">Kérésre készült All In One Kodi repository, amely a következő repository-kat tartalmazza: MovieShark, CasagnaIT, SlyGuy, Gujal00. A használaból eredő következményekért a felelősség a felhasználót terheli. </description>
+		<description lang="en">Kérésre készült All In One Kodi repository, amely a következő repository-kat tartalmazza: MovieShark, CasagnaIT, SlyGuy, Gujal00, Paco8, XLordKX. A használaból eredő következményekért a felelősség a felhasználót terheli. </description>
 		<platform>all</platform>
 	</extension>
 </addon>
