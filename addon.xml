@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.vargalex.allinone" version="0.0.1" name="All in one repository" provider-name="vargalex">
+<addon id="repository.vargalex.allinone" version="0.0.2" name="All in one repository" provider-name="vargalex">
 	<extension point="xbmc.addon.repository" name="All in one repository">
 		<dir>
 			<info compressed="false">https://repo.mvshrk.xyz/addons.xml</info>
@@ -33,15 +33,20 @@
 			<checksum>https://raw.githubusercontent.com/Paco8/kodi-repo/master/mini-repo/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Paco8/kodi-repo/master/mini-repo</datadir>
 		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/XLordKX/kodi/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/XLordKX/kodi/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/XLordKX/kodi/master/zip/</datadir>
-		</dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages/</datadir>
+        </dir>
+        <dir minversion="18.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages-py3/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages-py3/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages-py3/</datadir>
+        </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Vargalex All In One Repository</summary>
-		<description lang="en">Kérésre készült All In One Kodi repository, amely a következő repository-kat tartalmazza: MovieShark, CasagnaIT, SlyGuy, Gujal00, Paco8, XLordKX. A használaból eredő következményekért a felelősség a felhasználót terheli. </description>
+		<description lang="en">Kérésre készült All In One Kodi repository, amely a következő repository-kat tartalmazza: MovieShark, CasagnaIT, SlyGuy, Gujal00, Paco8, Sandmann79. A használaból eredő következményekért a felelősség a felhasználót terheli. </description>
 		<platform>all</platform>
 	</extension>
 </addon>
